@@ -1,0 +1,35 @@
+# Node Modules
+node_modules/
+
+# Dependency files
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Temporary Files
+*.tmp
+*.temp
+
+# Environment Variables
+.env
+.env.*.local
+
+# Build Output
+node_modules/
+.next/
+
+# Cache
+.vscode/
+.idea/
+.eslintcache
