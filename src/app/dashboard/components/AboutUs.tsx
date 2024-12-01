@@ -14,11 +14,7 @@ export default function AboutUs() {
         Welcome!
       </Typography>
       TO
-      <Typography
-        variant="h4"
-        className={'hidden sm:block'}
-        style={montserrat.style}
-      >
+      <Typography variant="h4" style={montserrat.style}>
         OUR KiTCHEN
       </Typography>
       <Typography className="pt-4" variant="body1">
