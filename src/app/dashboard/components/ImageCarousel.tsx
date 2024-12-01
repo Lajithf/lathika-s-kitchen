@@ -6,9 +6,9 @@ import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
 
 const images = [
-  '/images/food-1.avif',
-  '/images/food-2.avif',
-  '/images/food-3.avif',
+  './images/food-1.avif',
+  './images/food-2.avif',
+  './images/food-3.avif',
 ];
 
 const ImageCarousel = () => {

@@ -1,3 +1,4 @@
+import React from 'react';
 import Dashboard from './dashboard/page';
 import { NavLinks } from './ui/nav-links';
 import './styles.css';
@@ -9,7 +10,7 @@ export default function Home() {
     <>
       <div className="header">
         <div className="brand flex items-baseline">
-          <img src="images/our.png" alt="Logo" />
+          <img src="./images/our.png" alt="Logo" />
           <Typography variant="h2">OUR KiTCHEN</Typography>by LATHIKA
         </div>
         <div className="flex">

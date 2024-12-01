@@ -1,16 +1,71 @@
 .nav-links {
-    /* background-color: blue; */
     display: flex;
     justify-content: flex-end;
-    .link {
-        display: flex;
-        align-items: center;
-        margin-right: 2rem;
-        &:hover {
-            color: red
-            }
+    flex-wrap: wrap;
+    padding: 1rem;
+}
+
+.link {
+    display: flex;
+    align-items: center;
+    margin-right: 2rem;
+    text-decoration: none;
+    color: inherit;
+    transition: color 0.3s ease;
+}
+
+.link:hover {
+    color: red;
+}
+
+.active {
+    font-weight: bold;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    .nav-links {
+        justify-content: space-around; /* Center and space out items */
+        flex-direction: column; /* Stack items vertically */
+        align-items: center; /* Center the items horizontally */
+        padding: 2rem 0; /* Adjust padding for mobile */
     }
-    .active {
-        font-weight: bold;
+
+    .link {
+        margin-right: 0;
+        margin-bottom: 1rem; /* Add spacing between links */
+        font-size: 1.2rem; /* Adjust font size for mobile */
+    }
+    
+    /* Optional: Create a hamburger menu style */
+    .hamburger-menu {
+        display: block;
+        cursor: pointer;
+        position: absolute;
+        top: 1rem;
+        right: 1rem;
+    }
+
+    .hamburger-menu .bar {
+        width: 30px;
+        height: 4px;
+        background-color: #333;
+        margin: 6px 0;
+    }
+
+    .nav-links {
+        display: none; /* Hide the navigation links by default */
+        width: 100%;
+    }
+
+    .nav-links.open {
+        display: flex; /* Show the navigation links when menu is open */
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .nav-links.open .link {
+        margin-right: 0;
+        margin-bottom: 1rem;
     }
 }
