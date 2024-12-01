@@ -4,12 +4,8 @@ import { NavLinks } from './ui/nav-links';
 import './styles.css';
 import ThemeToggle from './dashboard/components/ThemeToggle';
 import { Typography } from '@mui/material';
-import { Montserrat } from 'next/font/google';
+import { montserrat } from './fonts/montserrat';
 
-export const montserrat = Montserrat({
-  subsets: ['latin'], // Load Latin subset (customize as needed)
-  weight: ['400', '700'], // Specify font weights
-});
 export default function Home() {
   return (
     <>
