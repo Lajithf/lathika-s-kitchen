@@ -1,0 +1,16 @@
+.nav-links {
+    /* background-color: blue; */
+    display: flex;
+    justify-content: flex-end;
+    .link {
+        display: flex;
+        align-items: center;
+        margin-right: 2rem;
+        &:hover {
+            color: red
+            }
+    }
+    .active {
+        font-weight: bold;
+    }
+}
