@@ -9,6 +9,7 @@ const images = [
   './images/food-1.avif',
   './images/food-2.avif',
   './images/food-3.avif',
+  './images/our.png',
 ];
 
 const ImageCarousel = () => {

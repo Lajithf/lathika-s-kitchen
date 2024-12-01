@@ -6,7 +6,7 @@ import ThemeToggle from './dashboard/components/ThemeToggle';
 import { Typography } from '@mui/material';
 import { Montserrat } from 'next/font/google';
 
-const montserrat = Montserrat({
+export const montserrat = Montserrat({
   subsets: ['latin'], // Load Latin subset (customize as needed)
   weight: ['400', '700'], // Specify font weights
 });
@@ -30,7 +30,6 @@ export default function Home() {
           <ThemeToggle />
         </div>
       </div>
-
       <Dashboard />
     </>
   );
