@@ -1,3 +1,4 @@
+import AboutUs from './components/AboutUs';
 import ImageCarousel from './components/ImageCarousel';
 
 export default function Dashboard() {
@@ -7,7 +8,7 @@ export default function Dashboard() {
         <ImageCarousel />
       </section>
       <section id="about" style={{ height: '100vh' }}>
-        About
+        <AboutUs />
       </section>
       <section id="menu" style={{ height: '100vh' }}>
         Menu
