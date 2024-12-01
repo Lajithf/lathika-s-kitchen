@@ -8,7 +8,7 @@ import { Typography } from '@mui/material';
 export default function Home() {
   return (
     <>
-      <div className="header">
+      <div className="header top-0 left-0 fixed z-10 w-full">
         <div className="brand flex items-baseline">
           <img src="./images/our.png" alt="Logo" />
           <Typography variant="h2">OUR KiTCHEN</Typography>by LATHIKA

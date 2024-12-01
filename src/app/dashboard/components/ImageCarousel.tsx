@@ -23,7 +23,7 @@ const ImageCarousel = () => {
   };
 
   return (
-    <Box sx={{ width: '80%', margin: 'auto', mt: 4 }}>
+    <Box sx={{ width: '70%', margin: 'auto', mt: 4 }}>
       <Slider {...settings}>
         {images.map((image, index) => (
           <Box
