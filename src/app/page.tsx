@@ -11,7 +11,10 @@ export default function Home() {
       <div className="header top-0 left-0 fixed z-10 w-full">
         <div className="brand flex items-baseline">
           <img src="./images/our.png" alt="Logo" />
-          <Typography variant="h2">OUR KiTCHEN</Typography>by LATHIKA
+          <Typography variant="h2" className="hidden sm:block">
+            OUR KiTCHEN
+          </Typography>
+          by LATHIKA
         </div>
         <div className="flex">
           <NavLinks />
