@@ -1,11 +1,6 @@
 # Node Modules
 node_modules/
 
-# Dependency files
-package-lock.json
-yarn.lock
-pnpm-lock.yaml
-
 # OS-specific files
 .DS_Store
 Thumbs.db
@@ -28,6 +23,7 @@ yarn-error.log*
 # Build Output
 node_modules/
 .next/
+out/
 
 # Cache
 .vscode/
