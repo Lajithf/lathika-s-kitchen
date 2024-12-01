@@ -1,4 +1,4 @@
-import { montserrat } from '@/app/page';
+import { montserrat } from '@/app/fonts/montserrat';
 import { Typography } from '@mui/material';
 import { Pacifico } from 'next/font/google';
 export const pacifico = Pacifico({
